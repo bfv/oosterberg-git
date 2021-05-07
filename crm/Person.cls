@@ -21,7 +21,7 @@ class crm.Person:
     end constructor.
     
     method public override character ToString():
-        return substitute("&1 &2", this-object:FirstName, this-object:LastName).    
+        return substitute("person: &1 &2", this-object:FirstName, this-object:LastName).    
     end method.
     
 end class.
